@@ -1,4 +1,4 @@
-# aumento-precios-c
+# price-updater-c
 
 Aplicación desarrollada en lenguaje C que permite gestionar una lista de productos almacenados en un archivo binario y aplicar un aumento porcentual sobre sus precios.
 
@@ -22,6 +22,9 @@ Aplicación desarrollada en lenguaje C que permite gestionar una lista de produc
 2. Visualizar la lista inicial de productos
 3. Ingresar el porcentaje de aumento deseado
 4. Observar la lista actualizada con los nuevos precios
+
+##Nota
+El archivo 'Precios.dat' se genera automaticamente al ejecutar el programa.
 
 ## Autor
 Gonzalo Lampret  
