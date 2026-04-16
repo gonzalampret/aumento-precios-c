@@ -1,24 +1,28 @@
 # aumento-precios-c
-Programa en C que permite aplicar un porcentaje de aumento a una lista de productos predefinida (codigo, precio y nombre).
+
+Aplicación desarrollada en lenguaje C que permite gestionar una lista de productos almacenados en un archivo binario y aplicar un aumento porcentual sobre sus precios.
 
 ## Funcionalidades
-- Visualización de una lista de productos (código, precio y nombre)
-- Ingreso de porcentaje de aumento
-- Cálculo automático de nuevos precios
-- Comparación entre precios originales y actualizados
+- Inicialización de una lista de productos (código, precio y descripcion)
+- Persistencia de datos en archivo binario (Precios.dat)
+- Lectura y visualización de productos desde archivo
+- Ingreso de porcentaje de aumento por parte del usuario
+- Actualización de precios en memoria y en archivo
+- Visualización de precios antes y después del ajuste
 
-## Detalle técnico
-Los productos están definidos directamente en el código fuente. Para agregar nuevos productos, es necesario modificar el código.
-
-## Tecnologías
-- Lenguaje C
+## Detalles técnicos
+- Uso de estructuras (struct) para modelar productos
+- Manejo de archivos binarios con fopen, fread, fwrite y fseek
+- Manipulación de arreglos de estructuras
+- Entrada de datos por teclado
+- Formateo de salida por consola
 
 ## Cómo usar
 1. Ejecutar el programa
-2. Visualizar la lista actual de productos
-3. Ingresar el numero del porcentaje de aumento
-4. Ver la lista actualizada junto con los precios anteriores
+2. Visualizar la lista inicial de productos
+3. Ingresar el porcentaje de aumento deseado
+4. Observar la lista actualizada con los nuevos precios
 
 ## Autor
-Gonzalo Lampret
+Gonzalo Lampret  
 Estudiante de Ingeniería en Informática (UNLaM)
